@@ -101,24 +101,41 @@ white-colr #ffffff;*/
 justify-content:space-between;
 }
 
-.feauture-list-main::before {
+.pictures-svg{
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color-primary);
+}
+
+.pictures-svg::before {
     display: block;
     content: "";
     height: 120px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--background-color-primary);
-}
+    
+} 
+
+
 
 .icon-antenna::before{
     background-image: url("../images/svg_first_part/antenna.svg");
 }
 
-.icon-antenna::before{
-    background-image: url("../images/svg_first_part;
+ 
+.icon-clock::before{
+    background-image: url("../images/svg_first_part/clock.svg");
 }
+
+.icon-laptop::before{
+    background-image: url("../images/svg_first_part/laptop.svg");
 }
+
+.icon-astronaut::before{
+    background-image: url("../images/svg_first_part/astronaut.svg");
+}
+
 
 .examples {
     padding-bottom: 50px;
