@@ -130,13 +130,6 @@ body {
        
 }
 
-.link-icon {
-    padding: 0;
-    border: none;
-    
-}
-
-
 .link-icon{
     display: flex;
     justify-content: center;
@@ -144,7 +137,8 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-        
+    padding: 0;
+    border: none;    
 }
 
 .link-icon-picture {
@@ -181,6 +175,17 @@ body {
     margin: 0;
     }
 
+
+/* Наши клиенты */
+.our-clients-title{
+    font-size: 36px;
+    line-height: 1.17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
     /*  Footer */
 
 .adress p{
@@ -189,10 +194,6 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     font-style: normal;
-}
-
-.footer-container{
-    
 }
 
 .footer-contacts{
@@ -243,3 +244,57 @@ body {
 .contacts .footer-adress-contacts {
     color: var(--primary-text-color);
 }
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-center{
+    margin-left: 70px;
+}
+
+
+.footer-center li:last-child .link-icon-footer{
+    margin-right: 0;
+}
+
+.footer-losung{
+    color: var(--background-color-header);
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.link-icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px; 
+}
+
+.link-icon-picture-footer{
+    justify-content: space-between;
+    width: 20px;
+    height: 20px;
+    fill: var(--background-color-header);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link-icon-footer:hover,
+.link-icon-footer:focus{
+   background-color: var(--accent-color);
+}
+
+.link-icon-footer:hover .link-icon-picture-footer,
+.link-icon-footer:focus .link-icon-picture-footer {
+    fill: var(--background-color-header);
+
