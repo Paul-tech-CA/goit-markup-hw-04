@@ -14,10 +14,10 @@ img{
     display: block;
 }
 
-.container{
-margin: 0 auto;
-width: 1200px;
-padding: 0 15px;
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 15px;
 }
 
 body {
@@ -175,14 +175,6 @@ body {
     margin: 0;
     }
 
-
-/* Наши клиенты */
-.our-clients-title{
-    font-size: 36px;
-    line-height: 1.17px;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
 
 

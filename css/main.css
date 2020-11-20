@@ -246,11 +246,64 @@ justify-content:space-between;
 
 /* Наши клиенты */
 
-.section-our-clients{
-    padding-top: 0;
-    padding-bottom: 94px;
+.our-clients-title{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
 }
 
+.clients-regular{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-clients-picture{
+    
+    /*  */
+    display: flex;
+    fill: #AFB1B8;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our-clients Li{
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    /* flex-direction: column; */
+}
+
+.link-clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none; 
+}
+
+.link-clients:hover,
+.link-clients:focus{
+    background-color: var(--accent-color);
+}
+
+.link-clients:hover .link-clients-picture,
+.link-clients:focus .link-clients-picture{
+    fill: var(--background-color-header);
+}
+
+/* width: 170px;
+
+} */
+/* 
 margin: 0 auto;
 width: 1200px;
-padding: 0 15px;
+padding: 0 15px; */
