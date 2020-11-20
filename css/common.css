@@ -94,6 +94,7 @@ body {
 }
 .contacts {
     display: flex;
+    align-items: baseline;
 }
 
 .contacts .footer-adress-contacts+.footer-adress-contacts{
@@ -104,6 +105,22 @@ body {
 .contacts a:focus{
     color: var(--accent-color);
 }
+
+.link-icon-envelope,
+.link-icon-phone{
+    fill: var(--primary-text-color);
+    margin-right: 10px;
+}
+
+.link-icon-envelope:hover,
+.link-icon-envelope:focus,
+.link-icon-phone:hover,
+.link-icon-phone:focus{
+    fill: var(--accent-color);
+    cursor: pointer;
+}
+
+/* Hero */
 
 .hero-title {
     color: var(--title-text-color)
