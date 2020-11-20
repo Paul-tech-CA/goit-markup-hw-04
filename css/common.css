@@ -100,8 +100,8 @@ body {
     margin-left: 50px;
 }
 
-    .contacts a:hover,
-    .contacts a:focus{
+.contacts a:hover,
+.contacts a:focus{
     color: var(--accent-color);
 }
 
