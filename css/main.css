@@ -105,19 +105,22 @@ justify-content:space-between;
     width: 270px;
     height: 120px;
     background-color: var(--background-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .pictures-svg::before {
     display: block;
     content: "";
-    height: 120px;
     background-size: contain;
     background-repeat: no-repeat;
+    width: 70px;
+    height: 70px; 
     background-position: center;
     
 } 
-
-
 
 .icon-antenna::before{
     background-image: url("../images/svg_first_part/antenna.svg");
@@ -198,22 +201,23 @@ justify-content:space-between;
     line-height: 1.88;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 .section-team {
-padding-top: 94px;
-padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* .list-name-profession>h3,p */
-.section-list-name, .team
-{
+.section-list-name, .team{
     text-align: center;
 }
 
 .list-name-profession{
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .section-list-picture {

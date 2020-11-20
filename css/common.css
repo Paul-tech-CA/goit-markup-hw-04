@@ -124,6 +124,48 @@ body {
 
 /* Current */
 
+.actions {
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+.link-icon {
+    padding: 0;
+    border: none;
+    
+}
+
+
+.link-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+        
+}
+
+.link-icon-picture {
+    justify-content: space-between;
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link-icon:hover,
+.link-icon:focus{
+   background-color: var(--accent-color);
+}
+
+.link-icon:hover .link-icon-picture,
+.link-icon:focus .link-icon-picture {
+    fill: var(--background-color-header);
+}
+
 .site-nav .link.current {
     color: var(--accent-color);    
 }
