@@ -100,11 +100,11 @@ body {
 .contacts .footer-adress-contacts+.footer-adress-contacts{
     margin-left: 50px;
 }
-
+/* 
 .contacts a:hover,
 .contacts a:focus{
     color: var(--accent-color);
-}
+} */
 
 .link-icon-envelope,
 .link-icon-phone{
@@ -112,13 +112,24 @@ body {
     margin-right: 10px;
 }
 
-.link-icon-envelope:hover,
-.link-icon-envelope:focus,
-.link-icon-phone:hover,
-.link-icon-phone:focus{
+/* .link-icon-envelope:hover .mail-link,
+.link-icon-envelope:focus .mail-link,
+.link-icon-phone:hover .mail-link,
+.link-icon-phone:focus .mail-link{
+    fill: var(--accent-color);
+    cursor: pointer;
+} */
+
+
+.mail-link:hover .link-icon-envelope,
+.mail-link:focus .link-icon-envelope,
+.mail-link:hover .link-icon-phone,
+.mail-link:focus .link-icon-phone{
     fill: var(--accent-color);
     cursor: pointer;
 }
+
+
 
 /* Hero */
 
